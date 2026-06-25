@@ -88,7 +88,7 @@ chmod +x Execute_Mac.bash
 ## Project Structure
 
 ```
-sigmaview/
+SigmaView/
 ├── gui/
 │   ├── SigmaView_tools_gui.py    # Main GUI application
 │   └── generation_annotation.py  # Core processing pipeline
