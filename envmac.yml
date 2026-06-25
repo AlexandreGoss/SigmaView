@@ -1,0 +1,32 @@
+name: sigma_env_mac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core
+  - python=3.9.18
+  - numpy=1.22.4
+  - tifffile=2022.10.10
+  - scikit-image=0.19.3
+  - scipy=1.9.3
+  - pillow=9.5.0
+
+  # Data Processing
+  - pandas=1.5.3
+  - dask=2023.1.1
+  - zarr=2.14.2
+
+  # GUI & Utilities
+  - napari=0.4.17
+  - psutil=5.9.5
+  - tqdm=4.64.1
+  - tk=8.6.13
+
+  # Stardist & CSBDeep
+  #  - csbdeep=0.7.4
+
+  - pip:
+      - tensorflow-macos==2.11.0
+      - tensorflow-metal==0.7.0
+      - joblib
+      - psutil

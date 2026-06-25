@@ -1,0 +1,35 @@
+name: sigma_env_linux
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core
+  - python=3.9.18
+  - numpy=1.21.6
+  - tifffile=2022.10.10
+  
+  # TensorFlow CPU
+  - tensorflow=2.11.0
+
+  # Computer Vision
+  - scikit-image=0.19.3
+  - scipy=1.7.3
+  - pillow=9.5.0
+  - psutil
+  # Data Processing
+  - pandas=1.5.3
+  - dask=2023.1.1
+  - zarr=2.14.2
+  - joblib
+  # GUI & Utilities
+  - napari=0.4.17
+  - psutil=5.9.5
+  - tqdm=4.64.1
+
+  # Stardist & CSBDeep
+  # - stardist=0.8.3
+  # - csbdeep=0.7.4
+
+  - pip:
+      # Ajouts nécessaires éventuels par pip
+      # (laisser vide sauf besoin d'un package spécifique introuvable via conda)
